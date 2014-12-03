@@ -4,7 +4,9 @@
  */
  
  
- 
+/**
+ * Client Login Credentials
+ */
 $settingsClient = array(
 	'loginUrl' => '',
 	'username' => '',
