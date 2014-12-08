@@ -15,5 +15,5 @@ $settingsClient = array(
 		'token'    => '',
 		'clientId' => '',
 		'secret'   => ''
-	}
+	)
 );
