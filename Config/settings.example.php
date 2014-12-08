@@ -8,8 +8,12 @@
  * Client Login Credentials
  */
 $settingsClient = array(
-	'loginUrl' => '',
-	'username' => '',
-	'password' => '',
-	'token'    => ''
+	'connection-name' => array(
+		'loginUrl' => '',
+		'username' => '',
+		'password' => '',
+		'token'    => '',
+		'clientId' => '',
+		'secret'   => ''
+	}
 );
