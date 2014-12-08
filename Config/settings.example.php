@@ -4,11 +4,6 @@
  */
  
 /**
- * Auth URI
- */
-$authUri = '/services/oauth2/token'; 
- 
-/**
  * Client Login Credentials
  */
 $settingsClient = array(
@@ -21,12 +16,4 @@ $settingsClient = array(
 		'secret'   => '',
 		'type' 	   => ''
 	)
-);
-
-/**
- * Login Instance URLs
- */
-$loginInstance = array(
-	'production' => 'https://login.salesforce.com',
-	'sandbox'	 => 'https://test.salesforce.com'
 );
