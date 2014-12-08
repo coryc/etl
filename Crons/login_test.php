@@ -16,7 +16,7 @@ $post_data = array(
 	'client_id'     => $settings['clientId'],
 	'client_secret' => $settings['secret'],
 	'username'      => $settings['username'],
-	'password'      => $settings['password'] . $clientSetting['token']
+	'password'      => $settings['password'] . $settings['token']
 );
 $post_data = http_build_query($post_data);
 echo $post_data;
