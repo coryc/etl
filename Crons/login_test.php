@@ -8,12 +8,15 @@ include realpath(dirname(__FILE__) . '/../Config/settings.php');
 
 $url = 'https://test.salesforce.com/services/oauth2/token';
 
+// login settings
+$settings = $clientSetting['apitest'];
+
 $post_data = array(
 	'grant_type'    => 'password',
-	'client_id'     => $clientSetting['clientId'],
-	'client_secret' => $clientSetting['secret'],
-	'username'      => $clientSetting['username'],
-	'password'      => $clientSetting['password'] . $clientSetting['token']
+	'client_id'     => $settings['clientId'],
+	'client_secret' => $settings['secret'],
+	'username'      => $settings['username'],
+	'password'      => $settings['password'] . $clientSetting['token']
 );
 $post_data = http_build_query($post_data);
 echo $post_data;
