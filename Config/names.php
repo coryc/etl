@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Name test data, Name_Id__c is the external id used in the bulk upsert test
+ */
+
 $test_names = array(
 	array('Name_Id__c'=> '1', 'Name' => 'Cory'),
 	array('Name_Id__c'=> '2', 'Name' => 'Med'),
