@@ -5,17 +5,14 @@
  */
 
 $test_names = array(
-	array('Name_Id__c'=> '1', 'Name' => 'Cory'),
-	array('Name_Id__c'=> '2', 'Name' => 'Med'),
-	array('Name_Id__c'=> '3', 'Name' => 'Sarah'),
-	array('Name_Id__c'=> '4', 'Name' => 'Victoria'),
-	array('Name_Id__c'=> '5', 'Name' => 'Veronica'),
-	array('Name_Id__c'=> '6', 'Name' => 'Jessica'),
-	array('Name_Id__c'=> '7', 'Name' => 'Katie'),
-	array('Name_Id__c'=> '8', 'Name' => 'Andrea'),
-	array('Name_Id__c'=> '9', 'Name' => 'Matt'),
-	array('Name_Id__c'=> '10', 'Name' => 'Logan'),
-	array('Name_Id__c'=> '11', 'Name' => 'Jennifer'),
-	array('Name_Id__c'=> '12', 'Name' => 'Stacy'),
-	array('Name_Id__c'=> '13', 'Name' => 'Amanda')
+	array('Name_Id__c'=> '1', 'Name' => 'Sarah'),
+	array('Name_Id__c'=> '2', 'Name' => 'Victoria'),
+	array('Name_Id__c'=> '3', 'Name' => 'Veronica'),
+	array('Name_Id__c'=> '4', 'Name' => 'Jessica'),
+	array('Name_Id__c'=> '5', 'Name' => 'Katie'),
+	array('Name_Id__c'=> '6', 'Name' => 'Andrea'),
+	array('Name_Id__c'=> '7', 'Name' => 'Jennifer'),
+	array('Name_Id__c'=> '8', 'Name' => 'Stacy'),
+	array('Name_Id__c'=> '9', 'Name' => 'Amanda'),
+	array('Name_Id__c'=> '10','Name' => 'Tammy')
 );

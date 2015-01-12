@@ -8,7 +8,6 @@ require_once realpath(dirname(__FILE__) . '/../Config/settings.php');
 require_once realpath(dirname(__FILE__) . '/../Config/names.php');
 require_once realpath(dirname(__FILE__) . '/../Library/Auth.php');
 require_once realpath(dirname(__FILE__) . '/../Library/Utils.php');
-
 require_once realpath(dirname(__FILE__) . '/../Library/bulkclient/BulkApiClient.php');
 
 
